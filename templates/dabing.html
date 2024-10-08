@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Cat</title>
+    <!-- HTML注释：开发版本 -->
+    <link rel="stylesheet" href="/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css">
+
+</head>
+
+<body>
+{% load decorate %}
+<p>{{ name }}</p>
+
+<h1>现在时间是：{{time_now}}</h1>
+<p>{{my_cat.name}}的颜色是{{my_cat.color}}</p>
+<p>{{my_cat.name}}的叫声是{{my_cat.meowing}}</p>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>昵称</th>
+      <th>颜色</th>
+      <th>总结</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for cat in cat_list %}
+    <tr>
+      <td>{{cat.name}}</td>
+      <td>{{cat.color}}</td>
+	<td>{% cat_decorate cat.name cat.character cat.color%}</td>
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
+
+    <input type="button" value="提交">
+    <input type="button" value="提交" class="btn btn-primary">
+    <input type="button" value="提交" class="btn btn-success">
+    <input type="button" value="提交" class="btn btn-danger">
+    <input type="button" value="提交" class="btn btn-danger btn-xs">
+</body>
+</html>
+
+

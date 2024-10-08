@@ -1,0 +1,819 @@
+Watching for file changes with StatReloader
+[20/Aug/2024 08:52:10] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 08:52:18] "GET /mycat/ HTTP/1.0" 200 576
+[20/Aug/2024 09:21:45] "HEAD / HTTP/1.0" 200 14
+[20/Aug/2024 09:21:51] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 09:53:36] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 10:35:27] "HEAD / HTTP/1.0" 200 14
+[20/Aug/2024 10:35:27] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 10:38:23] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 10:38:33] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[20/Aug/2024 10:38:33] "GET /favicon.ico HTTP/1.0" 404 2335
+[20/Aug/2024 11:13:07] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 11:13:17] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[20/Aug/2024 11:13:17] "GET /favicon.ico HTTP/1.0" 404 2335
+[20/Aug/2024 11:13:26] "GET / HTTP/1.0" 200 14
+Not Found: /hello.world
+[20/Aug/2024 11:51:18] "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.0" 404 2400
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:19] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2452
+Not Found: /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:19] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2440
+Not Found: /vendor/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:20] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2428
+Not Found: /vendor/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:20] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2416
+Not Found: /vendor/phpunit/phpunit/LICENSE/eval-stdin.php
+[20/Aug/2024 11:51:21] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.0" 404 2437
+Not Found: /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:21] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2473
+Not Found: /phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:23] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2431
+Not Found: /phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:24] "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2419
+Not Found: /phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:25] "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2407
+Not Found: /phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:26] "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2395
+Not Found: /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:26] "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2443
+Not Found: /lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:27] "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2431
+Not Found: /lib/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:27] "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2419
+Not Found: /lib/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:30] "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2407
+Not Found: /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:30] "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:31] "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2476
+Not Found: /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:31] "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:32] "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2461
+Not Found: /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:32] "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:33] "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:33] "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:33] "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2461
+Not Found: /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:34] "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:34] "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:35] "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2476
+Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:35] "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:36] "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:36] "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:36] "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:37] "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:37] "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2473
+Not Found: /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:38] "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:38] "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2503
+Not Found: /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:39] "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:39] "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2473
+Not Found: /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:39] "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 11:51:40] "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /index.php
+[20/Aug/2024 11:51:40] "GET /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0" 404 2438
+Not Found: /public/index.php
+[20/Aug/2024 11:51:41] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0" 404 2459
+Not Found: /index.php
+[20/Aug/2024 11:51:41] "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.0" 404 2455
+Not Found: /index.php
+[20/Aug/2024 11:51:51] "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.0" 404 2369
+[20/Aug/2024 12:16:18] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 12:16:29] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[20/Aug/2024 12:16:30] "GET /favicon.ico HTTP/1.0" 404 2335
+[20/Aug/2024 12:51:30] "HEAD / HTTP/1.0" 200 14
+[20/Aug/2024 12:51:32] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 13:55:12] "HEAD / HTTP/1.0" 200 14
+[20/Aug/2024 13:55:13] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 14:09:02] "GET / HTTP/1.0" 200 14
+[20/Aug/2024 14:09:54] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[20/Aug/2024 14:09:54] "GET /favicon.ico HTTP/1.0" 404 2335
+[20/Aug/2024 14:30:31] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[20/Aug/2024 14:30:37] "GET /favicon.ico HTTP/1.0" 404 2335
+Not Found: /src/views/user/login.html
+[20/Aug/2024 14:46:44] "GET /src/views/user/login.html HTTP/1.0" 404 2377
+[20/Aug/2024 15:19:12] "GET / HTTP/1.0" 200 14
+Not Found: /hello.world
+[20/Aug/2024 15:28:29] "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.0" 404 2400
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:30] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2452
+Not Found: /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:30] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2440
+Not Found: /vendor/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:31] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2428
+Not Found: /vendor/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:31] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2416
+Not Found: /vendor/phpunit/phpunit/LICENSE/eval-stdin.php
+[20/Aug/2024 15:28:32] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.0" 404 2437
+Not Found: /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:33] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2473
+Not Found: /phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:33] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2431
+Not Found: /phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:34] "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2419
+Not Found: /phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:35] "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2407
+Not Found: /phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:35] "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2395
+Not Found: /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:36] "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2443
+Not Found: /lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:37] "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2431
+Not Found: /lib/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:37] "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2419
+Not Found: /lib/phpunit/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:38] "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.0" 404 2407
+Not Found: /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:38] "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:39] "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2476
+Not Found: /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:40] "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:40] "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2461
+Not Found: /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:41] "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:41] "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:42] "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:42] "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2461
+Not Found: /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:42] "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:43] "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:44] "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2476
+Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:45] "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:46] "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:46] "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:47] "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:48] "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:48] "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2473
+Not Found: /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:49] "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:50] "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2503
+Not Found: /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:50] "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2470
+Not Found: /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:51] "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2473
+Not Found: /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:51] "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2467
+Not Found: /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[20/Aug/2024 15:28:52] "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2464
+Not Found: /index.php
+[20/Aug/2024 15:28:52] "GET /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0" 404 2438
+Not Found: /public/index.php
+[20/Aug/2024 15:28:53] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0" 404 2459
+Not Found: /index.php
+[20/Aug/2024 15:28:53] "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.0" 404 2455
+Not Found: /index.php
+[20/Aug/2024 15:28:53] "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.0" 404 2369
+[20/Aug/2024 15:32:15] "HEAD / HTTP/1.0" 200 14
+[20/Aug/2024 15:32:21] "GET / HTTP/1.0" 200 14
+/opt/devops/cute_dabing/templatetags/decorate.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2024 - 08:51:36
+Django version 3.2.25, using settings 'cute_dabing.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 66, in __getitem__
+    return self._engines[alias]
+KeyError: 'django'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/__init__.py", line 419, in execute_from_command_line
+    utility.execute()
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/__init__.py", line 413, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/base.py", line 354, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/commands/runserver.py", line 61, in execute
+    super().execute(*args, **options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/base.py", line 398, in execute
+    output = self.handle(*args, **options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/commands/runserver.py", line 96, in handle
+    self.run(**options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/commands/runserver.py", line 103, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/utils/autoreload.py", line 638, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/utils/autoreload.py", line 623, in start_django
+    reloader.run(django_main_thread)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/utils/autoreload.py", line 328, in run
+    autoreload_started.send(sender=self)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/dispatch/dispatcher.py", line 182, in send
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 66, in __getitem__
+    return self._engines[alias]
+KeyError: 'django'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/base.py", line 423, in check
+    databases=databases,
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/contrib/admin/checks.py", line 78, in check_dependencies
+    for engine in engines.all():
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 90, in all
+    return [self[alias] for alias in self]
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 90, in <listcomp>
+    return [self[alias] for alias in self]
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 81, in __getitem__
+    engine = engine_cls(params)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/backends/django.py", line 27, in __init__
+    self.engine = Engine(self.dirs, self.app_dirs, **options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/engine.py", line 51, in __init__
+    self.template_libraries = self.get_template_libraries(libraries)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/engine.py", line 93, in get_template_libraries
+    loaded[name] = import_library(path)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/library.py", line 317, in import_library
+    module = import_module(name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/devops/cute_dabing/templatetags/decorate.py", line 6
+    def cat_decorate()
+                     ^
+SyntaxError: invalid syntax
+
+    for receiver in self._live_receivers(sender)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/dispatch/dispatcher.py", line 182, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/autoreload.py", line 44, in watch_for_template_changes
+    for directory in get_template_directories():
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/autoreload.py", line 17, in get_template_directories
+    for backend in engines.all():
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 90, in all
+    return [self[alias] for alias in self]
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 90, in <listcomp>
+    return [self[alias] for alias in self]
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/utils.py", line 81, in __getitem__
+    engine = engine_cls(params)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/backends/django.py", line 27, in __init__
+    self.engine = Engine(self.dirs, self.app_dirs, **options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/engine.py", line 51, in __init__
+    self.template_libraries = self.get_template_libraries(libraries)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/engine.py", line 93, in get_template_libraries
+    loaded[name] = import_library(path)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/template/library.py", line 317, in import_library
+    module = import_module(name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/devops/cute_dabing/templatetags/decorate.py", line 6
+    def cat_decorate()
+                     ^
+SyntaxError: invalid syntax
+Watching for file changes with StatReloader
+[21/Aug/2024 10:28:27] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 10:28:30] "GET /mycat/ HTTP/1.0" 200 1181
+[21/Aug/2024 10:28:31] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+Not Found: /favicon.ico
+[21/Aug/2024 10:28:31] "GET /favicon.ico HTTP/1.0" 404 2335
+[21/Aug/2024 10:28:59] "GET /mycat/ HTTP/1.0" 200 1181
+[21/Aug/2024 10:28:59] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+Not Found: /favicon.ico
+[21/Aug/2024 10:29:00] "GET /favicon.ico HTTP/1.0" 404 2335
+[21/Aug/2024 10:29:50] "GET /mycat/ HTTP/1.0" 200 1181
+Not Found: /favicon.ico
+[21/Aug/2024 10:29:50] "GET /favicon.ico HTTP/1.0" 404 2335
+[21/Aug/2024 10:48:26] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 11:04:12] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 11:28:49] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 11:28:55] "GET / HTTP/1.0" 200 14
+Not Found: /RDWeb
+[21/Aug/2024 11:28:55] "GET /RDWeb HTTP/1.0" 404 2317
+Not Found: /RDWeb/Pages/en-US/login.aspx
+[21/Aug/2024 11:28:55] "GET /RDWeb/Pages/en-US/login.aspx HTTP/1.0" 404 2386
+Not Found: /Remote
+[21/Aug/2024 11:28:55] "GET /Remote HTTP/1.0" 404 2320
+Not Found: /api/v1
+[21/Aug/2024 11:28:58] "GET /api/v1 HTTP/1.0" 404 2320
+Not Found: /wsman
+[21/Aug/2024 11:29:09] "POST /wsman HTTP/1.0" 404 2318
+[21/Aug/2024 11:29:16] "GET / HTTP/1.0" 200 14
+Not Found: /auth.html
+[21/Aug/2024 11:29:16] "GET /auth.html HTTP/1.0" 404 2329
+Not Found: /api/sonicos/auth
+Not Found: /auth1.html
+Not Found: /sslvpnLogin.html
+[21/Aug/2024 11:29:16] "GET /api/sonicos/auth HTTP/1.0" 404 2350
+[21/Aug/2024 11:29:16] "GET /auth1.html HTTP/1.0" 404 2332
+Not Found: /api/sonicos/tfa
+[21/Aug/2024 11:29:16] "GET /sslvpnLogin.html HTTP/1.0" 404 2350
+[21/Aug/2024 11:29:16] "GET /api/sonicos/tfa HTTP/1.0" 404 2347
+[21/Aug/2024 11:29:36] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[21/Aug/2024 11:29:36] "GET /favicon.ico HTTP/1.0" 404 2335
+[21/Aug/2024 11:31:54] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 11:31:55] "GET / HTTP/1.0" 200 14
+Not Found: /owa/auth/errorFE.aspx
+[21/Aug/2024 11:32:53] "GET /owa/auth/errorFE.aspx?httpCode=500 HTTP/1.0" 404 2378
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[21/Aug/2024 11:32:53] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0" 404 2527
+Not Found: /owa/auth/logon.aspx
+[21/Aug/2024 11:32:54] "GET /owa/auth/logon.aspx HTTP/1.0" 404 2359
+[21/Aug/2024 12:15:10] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[21/Aug/2024 12:15:20] "GET /favicon.ico HTTP/1.0" 404 2335
+Not Found: /.git/config
+[21/Aug/2024 12:24:21] "GET /.git/config HTTP/1.0" 404 2335
+[21/Aug/2024 12:49:28] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[21/Aug/2024 12:49:49] "GET /favicon.ico HTTP/1.0" 404 2335
+Not Found: /robots.txt
+[21/Aug/2024 12:49:50] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /sitemap.xml
+[21/Aug/2024 12:49:52] "GET /sitemap.xml HTTP/1.0" 404 2335
+Not Found: /config.json
+[21/Aug/2024 12:50:11] "GET /config.json HTTP/1.0" 404 2335
+[21/Aug/2024 13:00:24] "GET / HTTP/1.0" 200 14
+Not Found: /sdk
+[21/Aug/2024 13:00:25] "POST /sdk HTTP/1.0" 404 2312
+Not Found: /odinhttpcall1724216424
+[21/Aug/2024 13:00:25] "GET /odinhttpcall1724216424 HTTP/1.0" 404 2368
+Not Found: /HNAP1
+[21/Aug/2024 13:00:26] "GET /HNAP1 HTTP/1.0" 404 2317
+Not Found: /evox/about
+[21/Aug/2024 13:00:26] "GET /evox/about HTTP/1.0" 404 2332
+[21/Aug/2024 13:00:27] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 13:00:28] "GET / HTTP/1.0" 200 14
+Forbidden (CSRF cookie not set.): /
+[21/Aug/2024 13:00:28] "POST / HTTP/1.0" 403 2801
+[21/Aug/2024 13:00:29] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 13:02:22] "GET / HTTP/1.0" 200 14
+Not Found: /odinhttpcall1724216542
+Not Found: /sdk
+[21/Aug/2024 13:02:23] "GET /odinhttpcall1724216542 HTTP/1.0" 404 2368
+[21/Aug/2024 13:02:23] "POST /sdk HTTP/1.0" 404 2312
+Not Found: /HNAP1
+[21/Aug/2024 13:02:24] "GET /HNAP1 HTTP/1.0" 404 2317
+Not Found: /evox/about
+[21/Aug/2024 13:02:24] "GET /evox/about HTTP/1.0" 404 2332
+[21/Aug/2024 13:02:25] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 13:02:26] "GET / HTTP/1.0" 200 14
+Forbidden (CSRF cookie not set.): /
+[21/Aug/2024 13:02:27] "POST / HTTP/1.0" 403 2801
+[21/Aug/2024 13:02:27] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 14:18:19] "GET / HTTP/1.0" 200 14
+Not Found: /webui/
+[21/Aug/2024 14:23:18] "GET /webui/ HTTP/1.0" 404 2320
+Not Found: /favicon.ico
+[21/Aug/2024 14:26:28] "GET /favicon.ico HTTP/1.0" 404 2335
+Not Found: /geoserver/web/
+[21/Aug/2024 14:31:34] "GET /geoserver/web/ HTTP/1.0" 404 2344
+Not Found: /.git/config
+[21/Aug/2024 14:33:42] "GET /.git/config HTTP/1.0" 404 2335
+Not Found: /.git/config
+[21/Aug/2024 14:42:32] "GET /.git/config HTTP/1.0" 404 2335
+Not Found: /.env
+[21/Aug/2024 14:45:25] "GET /.env HTTP/1.0" 404 2314
+[21/Aug/2024 14:45:44] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 14:45:54] "GET / HTTP/1.0" 200 14
+Not Found: /favicon.ico
+[21/Aug/2024 14:45:55] "GET /favicon.ico HTTP/1.0" 404 2335
+[21/Aug/2024 15:34:03] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 16:36:23] "GET / HTTP/1.0" 200 14
+Not Found: /sdk
+[21/Aug/2024 16:36:24] "POST /sdk HTTP/1.0" 404 2312
+Not Found: /nmaplowercheck1724229384
+[21/Aug/2024 16:36:24] "GET /nmaplowercheck1724229384 HTTP/1.0" 404 2374
+Not Found: /evox/about
+[21/Aug/2024 16:36:25] "GET /evox/about HTTP/1.0" 404 2332
+Not Found: /HNAP1
+[21/Aug/2024 16:36:25] "GET /HNAP1 HTTP/1.0" 404 2317
+[21/Aug/2024 16:36:26] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 16:36:27] "GET / HTTP/1.0" 200 14
+[21/Aug/2024 16:41:42] "GET /mycat/ HTTP/1.0" 200 1181
+[21/Aug/2024 16:43:12] "GET /mycat/ HTTP/1.0" 200 1181
+[21/Aug/2024 17:22:09] "GET /mycat/ HTTP/1.0" 200 1181
+[21/Aug/2024 18:33:59] "GET /mycat/ HTTP/1.0" 200 1181
+[21/Aug/2024 18:34:05] "GET /mycat/ HTTP/1.0" 200 1181
+[22/Aug/2024 08:55:13] "GET /mycat/ HTTP/1.0" 200 1181
+[22/Aug/2024 08:55:17] "GET /mycat/ HTTP/1.0" 200 1181
+[26/Aug/2024 10:25:33] "GET /mycat/ HTTP/1.0" 200 1181
+[26/Aug/2024 10:25:33] "GET /mycat/ HTTP/1.0" 200 1181
+Watching for file changes with StatReloader
+[04/Sep/2024 17:30:47] "GET /mycat/ HTTP/1.0" 200 1180
+[04/Sep/2024 17:34:09] "GET /mycat/ HTTP/1.0" 200 1180
+[04/Sep/2024 17:34:17] "GET /mycat/ HTTP/1.0" 200 1180
+[04/Sep/2024 17:41:27] "GET /mycat/ HTTP/1.0" 200 1180
+[04/Sep/2024 17:41:28] "GET /mycat/ HTTP/1.0" 200 1180
+[04/Sep/2024 17:44:33] "GET /mycat/ HTTP/1.0" 200 1181
+[04/Sep/2024 17:44:47] "GET /mycat/ HTTP/1.0" 200 1180
+Not Found: /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css
+[04/Sep/2024 17:44:47] "GET /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 404 2482
+[04/Sep/2024 17:52:00] "GET /mycat/ HTTP/1.0" 200 1180
+Not Found: /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css
+[04/Sep/2024 17:52:00] "GET /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 404 2482
+/opt/devops/cute_dabing/cute_dabing/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 04, 2024 - 17:28:42
+Django version 3.2.25, using settings 'cute_dabing.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/commands/runserver.py", line 138, in inner_run
+    handler = self.get_handler(*args, **options)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/contrib/staticfiles/management/commands/runserver.py", line 31, in get_handler
+    return StaticFilesHandler(handler)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/contrib/staticfiles/handlers.py", line 71, in __init__
+    self.base_url = urlparse(self.get_base_url())
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/contrib/staticfiles/handlers.py", line 29, in get_base_url
+    utils.check_settings()
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/contrib/staticfiles/utils.py", line 50, in check_settings
+    "You're using the staticfiles app "
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the required STATIC_URL setting.
+
+/opt/devops/cute_dabing/cute_dabing/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 04, 2024 - 17:52:24
+Django version 3.2.25, using settings 'cute_dabing.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[04/Sep/2024 17:53:08] "GET /mycat/ HTTP/1.0" 200 1180
+Not Found: /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css
+[04/Sep/2024 17:53:08] "GET /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 404 2482
+/opt/devops/cute_dabing/cute_dabing/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 04, 2024 - 17:52:58
+Django version 3.2.25, using settings 'cute_dabing.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[04/Sep/2024 17:54:28] "GET /mycat/ HTTP/1.0" 200 1180
+Not Found: /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css
+[04/Sep/2024 17:54:28] "GET /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 404 2482
+[05/Sep/2024 09:37:03] "GET /mycat/ HTTP/1.0" 200 1180
+Not Found: /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css
+[05/Sep/2024 09:37:03] "GET /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 404 2482
+[10/Sep/2024 16:41:04] "GET /mycat/ HTTP/1.0" 200 1181
+Not Found: /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css
+[10/Sep/2024 16:41:04] "GET /mycat/statics/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 404 2482
+[10/Sep/2024 16:42:20] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 16:42:24] "GET /mycat/ HTTP/1.0" 200 1181
+/opt/devops/cute_dabing/cute_dabing/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 04, 2024 - 17:54:23
+Django version 3.2.25, using settings 'cute_dabing.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[10/Sep/2024 16:43:30] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 16:44:01] "GET /mycat/ HTTP/1.0" 200 1181
+/opt/devops/cute_dabing/cute_dabing/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 10, 2024 - 16:43:27
+Django version 3.2.25, using settings 'cute_dabing.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/opt/devops/project368/lib64/python3.6/site-packages/django/core/management/base.py", line 469, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (urls.E006) The STATIC_URL setting must end with a slash.
+
+System check identified 1 issue (0 silenced).
+
+/opt/devops/cute_dabing/cute_dabing/settings.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[10/Sep/2024 16:47:54] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 16:49:13] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 16:49:13] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+[10/Sep/2024 16:49:14] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map HTTP/1.0" 200 390887
+[10/Sep/2024 16:49:31] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map HTTP/1.0" 200 390887
+Not Found: /dsnhdjsdja
+[10/Sep/2024 16:49:37] "GET /dsnhdjsdja HTTP/1.0" 404 2332
+Not Found: /dsnhdjsdja/
+[10/Sep/2024 16:49:43] "GET /dsnhdjsdja/ HTTP/1.0" 404 2335
+[10/Sep/2024 16:52:28] "GET /mycat HTTP/1.0" 301 0
+[10/Sep/2024 16:52:28] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 16:52:28] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+[10/Sep/2024 16:52:28] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map HTTP/1.0" 200 390887
+[10/Sep/2024 16:52:30] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 16:52:30] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+[10/Sep/2024 16:52:30] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map HTTP/1.0" 200 390887
+Not Found: /mdnsjkdjsadsaycat/
+[10/Sep/2024 16:52:33] "GET /mdnsjkdjsadsaycat/ HTTP/1.0" 404 2356
+[10/Sep/2024 16:52:33] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map HTTP/1.0" 200 390887
+[10/Sep/2024 16:53:44] "GET /mycat HTTP/1.0" 301 0
+[10/Sep/2024 16:53:44] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 16:53:46] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 17:00:13] "GET /mycat/ HTTP/1.0" 200 1181
+[10/Sep/2024 17:00:13] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+[10/Sep/2024 17:00:13] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map HTTP/1.0" 200 390887
+[10/Sep/2024 17:00:19] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map HTTP/1.0" 200 390887
+Not Found: /sdsjsjsj
+[10/Sep/2024 17:00:23] "GET /sdsjsjsj HTTP/1.0" 404 2326
+Not Found: /sdsjsjsj/
+[10/Sep/2024 17:00:37] "GET /sdsjsjsj/ HTTP/1.0" 404 2329
+Not Found: //sdsjsjsj
+[10/Sep/2024 17:02:41] "GET //sdsjsjsj HTTP/1.0" 404 2329
+Not Found: /sdsjsjsj
+[10/Sep/2024 17:02:45] "GET /sdsjsjsj HTTP/1.0" 404 2326
+Not Found: /sdsjsjsj
+[10/Sep/2024 17:03:46] "GET /sdsjsjsj HTTP/1.0" 404 2326
+Not Found: /ndjsnjdnijnds
+[10/Sep/2024 17:03:57] "GET /ndjsnjdnijnds HTTP/1.0" 404 2341
+Not Found: /sdsjsjsj
+[10/Sep/2024 17:04:07] "GET /sdsjsjsj HTTP/1.0" 404 2326
+Not Found: /sdsjsjsj.js
+[10/Sep/2024 17:05:14] "GET /sdsjsjsj.js HTTP/1.0" 404 2335
+Not Found: /jquery-3.3.1.slim.min.js
+[11/Sep/2024 09:29:00] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[11/Sep/2024 09:29:02] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /owa/auth/x.js
+[11/Sep/2024 16:54:16] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /jquery-3.3.1.slim.min.js
+[12/Sep/2024 10:48:49] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[12/Sep/2024 10:48:51] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[13/Sep/2024 10:55:48] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /robots.txt
+[13/Sep/2024 10:57:49] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /owa/auth/x.js
+[13/Sep/2024 11:14:11] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /.well-known/security.txt
+[14/Sep/2024 01:12:35] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /ads.txt
+[14/Sep/2024 09:45:49] "GET /ads.txt HTTP/1.0" 404 2323
+Not Found: /app-ads.txt
+[14/Sep/2024 09:45:50] "GET /app-ads.txt HTTP/1.0" 404 2335
+Not Found: /jquery-3.3.1.slim.min.js
+[14/Sep/2024 14:37:30] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[14/Sep/2024 14:37:33] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.1.slim.min.js
+[15/Sep/2024 17:05:16] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[15/Sep/2024 17:05:18] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[15/Sep/2024 17:59:18] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /owa/auth/x.js
+[15/Sep/2024 21:39:57] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /jquery-3.3.1.slim.min.js
+[16/Sep/2024 11:40:10] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[16/Sep/2024 11:40:14] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[17/Sep/2024 16:54:07] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /owa/auth/x.js
+[17/Sep/2024 23:30:55] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /robots.txt
+[18/Sep/2024 02:34:18] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[18/Sep/2024 02:34:18] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.1.slim.min.js
+[18/Sep/2024 13:24:03] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[18/Sep/2024 13:24:05] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /js/NewWindow_2_all.js
+[18/Sep/2024 16:42:57] "GET /js/NewWindow_2_all.js HTTP/1.0" 404 2365
+Not Found: /js/NewWindow_2_all.js
+[18/Sep/2024 16:55:38] "GET /js/NewWindow_2_all.js HTTP/1.0" 404 2365
+Not Found: /robots.txt
+[18/Sep/2024 21:08:32] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[18/Sep/2024 21:08:39] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /owa/auth/x.js
+[19/Sep/2024 11:31:59] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /js/NewWindow_2_all.js
+[19/Sep/2024 17:41:09] "GET /js/NewWindow_2_all.js HTTP/1.0" 404 2365
+Not Found: /robots.txt
+[19/Sep/2024 18:38:07] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[19/Sep/2024 18:38:08] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[19/Sep/2024 18:45:38] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /jquery-3.3.1.slim.min.js
+[19/Sep/2024 23:44:28] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[19/Sep/2024 23:44:29] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /js/NewWindow_2_all.js
+[20/Sep/2024 01:28:25] "GET /js/NewWindow_2_all.js HTTP/1.0" 404 2365
+Not Found: /jquery-3.3.1.slim.min.js
+[21/Sep/2024 01:31:54] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[21/Sep/2024 01:31:56] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /owa/auth/x.js
+[21/Sep/2024 03:51:41] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /robots.txt
+[21/Sep/2024 12:22:57] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /js/NewWindow_2_all.js
+[22/Sep/2024 05:26:49] "GET /js/NewWindow_2_all.js HTTP/1.0" 404 2365
+Not Found: /owa/auth/x.js
+[23/Sep/2024 01:58:26] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /robots.txt
+[23/Sep/2024 08:56:18] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /Public/home/js/check.js
+[23/Sep/2024 19:34:42] "GET /Public/home/js/check.js HTTP/1.0" 404 2371
+[23/Sep/2024 19:34:43] "GET /static/admin/javascript/hetong.js HTTP/1.0" 404 1837
+Not Found: /owa/auth/x.js
+[24/Sep/2024 14:58:39] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /robots.txt
+[24/Sep/2024 15:53:17] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[24/Sep/2024 15:53:18] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.1.slim.min.js
+[24/Sep/2024 22:42:03] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[24/Sep/2024 22:42:05] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[25/Sep/2024 07:04:02] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /js/NewWindow_2_all.js
+[26/Sep/2024 00:22:38] "GET /js/NewWindow_2_all.js HTTP/1.0" 404 2365
+Not Found: /favicon-32x32.png
+[26/Sep/2024 00:24:11] "GET /favicon-32x32.png HTTP/1.0" 404 2353
+Not Found: /cf_scripts/scripts/ajax/ckeditor/ckeditor.js
+[26/Sep/2024 00:24:43] "GET /cf_scripts/scripts/ajax/ckeditor/ckeditor.js HTTP/1.0" 404 2434
+Not Found: /owa/auth/x.js
+[26/Sep/2024 04:59:57] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /jquery-3.3.1.slim.min.js
+[26/Sep/2024 18:24:32] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[26/Sep/2024 18:24:33] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[27/Sep/2024 07:38:00] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[27/Sep/2024 07:38:03] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[27/Sep/2024 08:50:59] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /ads.txt
+[27/Sep/2024 11:54:05] "GET /ads.txt HTTP/1.0" 404 2323
+Not Found: /app-ads.txt
+[27/Sep/2024 11:54:06] "GET /app-ads.txt HTTP/1.0" 404 2335
+Not Found: /js/NewWindow_2_all.js
+[27/Sep/2024 15:51:23] "GET /js/NewWindow_2_all.js HTTP/1.0" 404 2365
+Not Found: /CSS/Miniweb.css
+[27/Sep/2024 17:05:09] "GET /CSS/Miniweb.css HTTP/1.0" 404 2347
+Not Found: /dana-na/nc/nc_gina_ver.txt
+[27/Sep/2024 17:05:12] "GET /dana-na/nc/nc_gina_ver.txt HTTP/1.0" 404 2380
+[29/Sep/2024 11:29:06] "GET /static/admin/javascript/hetong.js HTTP/1.0" 404 1837
+Not Found: /robots.txt
+[30/Sep/2024 01:12:52] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[30/Sep/2024 01:12:53] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.1.slim.min.js
+[30/Sep/2024 20:28:00] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[30/Sep/2024 20:28:02] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[01/Oct/2024 18:22:26] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[01/Oct/2024 18:22:30] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[02/Oct/2024 05:09:25] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /robots.txt
+[02/Oct/2024 07:31:18] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /Public/home/js/check.js
+[02/Oct/2024 10:46:40] "GET /Public/home/js/check.js HTTP/1.0" 404 2371
+[02/Oct/2024 10:46:44] "GET /static/admin/javascript/hetong.js HTTP/1.0" 404 1837
+Not Found: /ads.txt
+[02/Oct/2024 17:25:01] "GET /ads.txt HTTP/1.0" 404 2323
+Not Found: /app-ads.txt
+[02/Oct/2024 17:25:02] "GET /app-ads.txt HTTP/1.0" 404 2335
+Not Found: /robots.txt
+[04/Oct/2024 13:20:56] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /jquery-3.3.1.slim.min.js
+[04/Oct/2024 21:05:11] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[04/Oct/2024 21:05:14] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /CSS/Miniweb.css
+[05/Oct/2024 04:09:40] "GET /CSS/Miniweb.css HTTP/1.0" 404 2347
+Not Found: /dana-na/nc/nc_gina_ver.txt
+[05/Oct/2024 04:09:41] "GET /dana-na/nc/nc_gina_ver.txt HTTP/1.0" 404 2380
+Not Found: /readme.txt
+[05/Oct/2024 04:09:42] "GET /readme.txt HTTP/1.0" 404 2332
+Not Found: /owa/auth/x.js
+[05/Oct/2024 04:48:52] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /jquery-3.3.1.slim.min.js
+[06/Oct/2024 17:17:37] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2374
+Not Found: /jquery-3.3.2.slim.min.js
+[06/Oct/2024 17:17:39] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2374
+Not Found: /robots.txt
+[07/Oct/2024 08:35:56] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /.well-known/security.txt
+[07/Oct/2024 08:35:59] "GET /.well-known/security.txt HTTP/1.0" 404 2374
+Not Found: /owa/auth/x.js
+[07/Oct/2024 11:11:44] "GET /owa/auth/x.js HTTP/1.0" 404 2341
+Not Found: /robots.txt
+[07/Oct/2024 16:25:18] "GET /robots.txt HTTP/1.0" 404 2332
+Not Found: /dana-na/nc/nc_gina_ver.txt
+[08/Oct/2024 10:51:23] "GET /dana-na/nc/nc_gina_ver.txt HTTP/1.0" 404 2380
+Watching for file changes with StatReloader
+[08/Oct/2024 17:28:55] "GET /mycat/ HTTP/1.0" 200 1181
+[08/Oct/2024 17:28:55] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+[08/Oct/2024 17:29:02] "GET /mycat/ HTTP/1.0" 200 1181
+[08/Oct/2024 17:29:02] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+Not Found: /robots.txt
+[08/Oct/2024 18:57:16] "GET /robots.txt HTTP/1.0" 404 2332
+[08/Oct/2024 19:06:30] "GET /mycat HTTP/1.0" 301 0
+[08/Oct/2024 19:06:30] "GET /mycat/ HTTP/1.0" 200 1181
+[08/Oct/2024 19:06:30] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
+[08/Oct/2024 19:27:49] "GET /mycat/ HTTP/1.0" 200 1181
+[08/Oct/2024 19:27:49] "GET /static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css HTTP/1.0" 200 145933
